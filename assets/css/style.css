@@ -1,0 +1,29 @@
+
+.carousel-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    z-index: -2; 
+}
+
+
+.carousel-item img {
+    height: 100%; 
+    object-fit: cover;
+}
+
+body {
+    padding-top: 70px; 
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    top: 20px; 
+}    
